@@ -8,7 +8,7 @@ $Script:eVersions = @(
 )
 
 $Script:onlineCuLookup = @{
-    "15.02.0858.012" = "Exchange Server 2019 CU9 sssssssssssMay21SU"
+    "15.02.0858.012" = "Exchange Server 2019 CU9 May21SU"
     "15.02.0858.010" = "Exchange Server 2019 CU9 Apr21SU"
     "15.02.0858.005" = "Exchange Server 2019 CU9"
     "15.02.0792.015" = "Exchange Server 2019 CU8 May21SU"
@@ -70,7 +70,7 @@ $Script:onlineCuLookup = @{
     "15.01.0396.030" = "Exchange Server 2016 CU1"
     "15.01.0225.042" = "Exchange Server 2016 RTM"
     "15.01.0225.016" = "Exchange Server 2016 Preview"
-    "15.00.1497.018" = "Exchange Server 2013 CU23 xxxxxxxMay21SU"
+    "15.00.1497.018" = "Exchange Server 2013 CU23 May21SU"
     "15.00.1497.015" = "Exchange Server 2013 CU23 Apr21SU"
     "15.00.1497.012" = "Exchange Server 2013 CU23 Mar21SU"
     "15.00.1497.002" = "Exchange Server 2013 CU23"
