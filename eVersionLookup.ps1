@@ -1,10 +1,10 @@
 # Use Build number (long format) for LatestBuild
 
 $Script:eVersions = @(
-    [pscustomobject]@{ VersionName = '2019'; LatestBuild = '15.02.0922.007'; Name = 'Exchange Server 2019 CU10'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019'; }
-    [pscustomobject]@{ VersionName = '2016'; LatestBuild = '15.01.2308.008'; Name = 'Exchange Server 2016 CU21'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016'; }
-    [pscustomobject]@{ VersionName = '2013'; LatestBuild = '15.00.1497.018'; Name = 'Cumulative Update 23 May 21'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013'; }
-    [pscustomobject]@{ VersionName = '2010'; LatestBuild = '14.03.0513.000'; Name = 'Exchange Server 2013 CU23 May21'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2010'; }
+    [pscustomobject]@{ VersionName = '2019'; LatestBuild = '15.02.0922.007'; Name = 'Exchange Server 2019 CU10 June 29, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019'; }
+    [pscustomobject]@{ VersionName = '2016'; LatestBuild = '15.01.2308.008'; Name = 'Exchange Server 2016 CU21 June 29, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016'; }
+    [pscustomobject]@{ VersionName = '2013'; LatestBuild = '15.00.1497.018'; Name = 'Cumulative Update 23 May 11, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013'; }
+    [pscustomobject]@{ VersionName = '2010'; LatestBuild = '14.03.0513.000'; Name = 'Exchange Server 2013 CU23 March 2, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2010'; }
 )
 
 $Script:onlineCuLookup = @{
