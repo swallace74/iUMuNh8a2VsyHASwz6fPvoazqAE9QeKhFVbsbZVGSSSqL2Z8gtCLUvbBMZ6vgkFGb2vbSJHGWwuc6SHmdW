@@ -1,13 +1,16 @@
 # Use Build number (long format) for LatestBuild
 
 $Script:eVersions = @(
-    [pscustomobject]@{ VersionName = '2019'; LatestBuild = '15.02.0922.007'; Name = 'Exchange Server 2019 CU10 June 29, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019'; }
-    [pscustomobject]@{ VersionName = '2016'; LatestBuild = '15.01.2308.008'; Name = 'Exchange Server 2016 CU21 June 29, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016'; }
-    [pscustomobject]@{ VersionName = '2013'; LatestBuild = '15.00.1497.018'; Name = 'Cumulative Update 23 May 11, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013'; }
+    [pscustomobject]@{ VersionName = '2019'; LatestBuild = '15.02.0922.013'; Name = 'Exchange Server 2019 CU10 Security Update, July 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019'; }
+    [pscustomobject]@{ VersionName = '2016'; LatestBuild = '15.01.2308.014'; Name = 'Exchange Server 2016 CU21 Security Update, July 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016'; }
+    [pscustomobject]@{ VersionName = '2013'; LatestBuild = '15.00.1497.023'; Name = 'Exchange Server 2013 CU23 Security Update, July 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013'; }
     [pscustomobject]@{ VersionName = '2010'; LatestBuild = '14.03.0513.000'; Name = 'Exchange Server 2013 CU23 March 2, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2010'; }
 )
 
 $Script:onlineCuLookup = @{
+    "15.02.0922.013" = "Exchange Server 2019 CU10 Security Update"
+    "15.01.2308.014" = "Exchange Server 2016 CU21 Security Update"
+    "15.00.1497.023" = "Exchange Server 2013 CU23 Security Update"
     "15.02.0922.007" = "Exchange Server 2019 CU10"
     "15.02.0858.012" = "Exchange Server 2019 CU9 May21SU"
     "15.02.0858.010" = "Exchange Server 2019 CU9 Apr21SU"
