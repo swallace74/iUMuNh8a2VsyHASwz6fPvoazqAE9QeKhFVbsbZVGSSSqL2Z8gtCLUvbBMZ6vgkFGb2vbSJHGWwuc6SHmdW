@@ -1,13 +1,17 @@
 # Use Build number (long format) for LatestBuild
 
 $Script:eVersions = @(
-    [pscustomobject]@{ VersionName = '2019'; LatestBuild = '15.02.0986.005'; Name = 'Exchange Server 2019 CU11, September 28, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019'; }
-    [pscustomobject]@{ VersionName = '2016'; LatestBuild = '15.01.2375.007'; Name = 'Exchange Server 2016 CU22, September 28, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016'; }
-    [pscustomobject]@{ VersionName = '2013'; LatestBuild = '15.00.1497.023'; Name = 'Exchange Server 2013 CU23 Security Update, July 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013'; }
-    [pscustomobject]@{ VersionName = '2010'; LatestBuild = '14.03.0513.000'; Name = 'Exchange Server 2013 CU23 March 2, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2010'; }
+    [pscustomobject]@{ VersionName = '2019'; LatestBuild = '15.02.0986.009'; Name = 'Exchange Server 2019 CU11 Security Update, October 12, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019'; }
+    [pscustomobject]@{ VersionName = '2016'; LatestBuild = '15.01.2375.012'; Name = 'Exchange Server 2016 CU22 Security Update, October 12, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016'; }
+    [pscustomobject]@{ VersionName = '2013'; LatestBuild = '15.00.1497.024'; Name = 'Exchange Server 2013 CU23 Security Update, October 12, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013'; }
+    [pscustomobject]@{ VersionName = '2010'; LatestBuild = '14.03.0513.000'; Name = 'Exchange Server 2010 SP3 Update Rollup 32, March 2, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2010'; }
 )
 
 $Script:onlineCuLookup = @{
+    "14.03.0513.000" = "Exchange Server 2010 SP3 Update Rollup 32"
+    "15.00.1497.024" = "Exchange Server 2016 CU23 Security Update"
+    "15.01.2375.012" = "Exchange Server 2016 CU22 Security Update"
+    "15.02.0986.009" = "Exchange Server 2019 CU11 Security Update"
     "15.02.0986.005" = "Exchange Server 2019 CU11"
     "15.01.2375.007" = "Exchange Server 2016 CU22"
     "15.02.0922.013" = "Exchange Server 2019 CU10 Security Update"
@@ -107,7 +111,6 @@ $Script:onlineCuLookup = @{
     "15.00.0712.024" = "Exchange Server 2013 CU2"
     "15.00.0620.029" = "Exchange Server 2013 CU1"
     "15.00.0516.032" = "Exchange Server 2013 RTM"
-    "14.03.0513.000" = "Update Rollup 32 for Exchange Server 2010 SP3"
     "14.03.0509.000" = "Update Rollup 31 for Exchange Server 2010 SP3"
     "14.03.0496.000" = "Update Rollup 30 for Exchange Server 2010 SP3"
     "14.03.0468.000" = "Update Rollup 29 for Exchange Server 2010 SP3"
