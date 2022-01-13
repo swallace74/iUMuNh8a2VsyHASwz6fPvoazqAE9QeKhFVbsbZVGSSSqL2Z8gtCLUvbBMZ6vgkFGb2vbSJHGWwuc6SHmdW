@@ -1,13 +1,16 @@
 # Use Build number (long format) for LatestBuild
 
 $Script:eVersions = @(
-    [pscustomobject]@{ VersionName = '2019'; LatestBuild = '15.02.0986.014'; Name = 'Exchange Server 2019 CU11 Security Update, November 9, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019'; }
-    [pscustomobject]@{ VersionName = '2016'; LatestBuild = '15.01.2375.017'; Name = 'Exchange Server 2016 CU22 Security Update, November 9, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016'; }
-    [pscustomobject]@{ VersionName = '2013'; LatestBuild = '15.00.1497.026'; Name = 'Exchange Server 2013 CU23 Security Update, November 9, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013'; }
+    [pscustomobject]@{ VersionName = '2019'; LatestBuild = '15.02.0986.015'; Name = 'Exchange Server 2019 CU11 Security Update, January 11, 2022'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019'; }
+    [pscustomobject]@{ VersionName = '2016'; LatestBuild = '15.01.2375.018'; Name = 'Exchange Server 2016 CU22 Security Update, January 11, 2022''; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016'; }
+    [pscustomobject]@{ VersionName = '2013'; LatestBuild = '15.00.1497.028'; Name = 'Exchange Server 2013 CU23 Security Update, January 11, 2022''; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013'; }
     [pscustomobject]@{ VersionName = '2010'; LatestBuild = '14.03.0513.000'; Name = 'Exchange Server 2010 SP3 Update Rollup 32, March 2, 2021'; Url = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2010'; }
 )
 
 $Script:onlineCuLookup = @{
+    "Exchange Server 2019 CU11 Jan22SU" = "15.02.0986.015"
+    "Exchange Server 2016 CU22 Jan22SU" = "15.01.2375.018"
+    "Exchange Server 2013 CU23 Jan22SU" = "15.00.1497.028"
     "Exchange Server 2019 CU11 Nov21SU"= "15.02.0986.014"
     "Exchange Server 2019 CU11 Oct21SU"= "15.02.0986.009"
     "Exchange Server 2019 CU11"= "15.02.0986.005"
