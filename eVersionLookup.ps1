@@ -9,7 +9,7 @@ $Script:eVersions = @(
     }
     [pscustomobject]@{
         VersionName = '2016';
-        LatestBuild = '15.01.2375.024';
+        LatestBuild = '15.01.2507.006';
         Name        = 'Exchange Server 2016 CU23 (2022H1), April 20, 2022';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016';
     }
