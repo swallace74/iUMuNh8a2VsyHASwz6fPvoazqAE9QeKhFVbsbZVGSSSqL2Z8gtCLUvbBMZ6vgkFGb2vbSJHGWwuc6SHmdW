@@ -29,10 +29,9 @@ $Script:eVersions = @(
 )
 
 $Script:onlineCuLookup = @{
-    "Exchange Server 2019 CU12 May 22 Security Update" = "15.02.1118.009"
-    "Exchange Server 2016 CU23 May 22 Security Update" = "15.01.2507.009"
-    "Exchange Server 2013 CU23 May 22 Security Update" = "15.00.1497.036"
-
+    "Exchange Server 2019 CU12 May 22 Security Update"           = "15.02.1118.009"
+    "Exchange Server 2016 CU23 May 22 Security Update"           = "15.01.2507.009"
+    "Exchange Server 2013 CU23 May 22 Security Update"           = "15.00.1497.036"
     "Exchange Server 2016 CU23 (2022H1)"                         = "15.01.2507.006"
     "Exchange Server 2019 CU12 (2022H1)"                         = "15.02.1118.007"
     "Exchange Server 2019 CU11 Mar22SU"                          = "15.02.0986.022"
