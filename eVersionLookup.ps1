@@ -4,20 +4,20 @@
 $Script:eVersions = @(
     [pscustomobject]@{
         VersionName = '2019';
-        LatestBuild = '15.02.1118.012';
-        Name        = 'Exchange Server 2019 CU12 August 9, 2022 Security Update';
+        LatestBuild = '15.02.1118.015';
+        Name        = 'Exchange Server 2019 CU12 October 11, 2022 Security Update';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019';
     }
     [pscustomobject]@{
         VersionName = '2016';
-        LatestBuild = '15.01.2507.012';
-        Name        = 'Exchange Server 2016 CU23 August 9, 2022 Security Update';
+        LatestBuild = '15.01.2507.013';
+        Name        = 'Exchange Server 2016 CU23 October 11, 2022 Security Update';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016';
     }
     [pscustomobject]@{
         VersionName = '2013';
-        LatestBuild = '15.00.1497.040';
-        Name        = 'Exchange Server 2013 CU23 August 9, 2022 Security Update';
+        LatestBuild = '15.00.1497.042';
+        Name        = 'Exchange Server 2013 CU23 October 11, 2022 Security Update';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013';
     }
     [pscustomobject]@{
@@ -29,6 +29,9 @@ $Script:eVersions = @(
 )
 
 $Script:onlineCuLookup = @{
+    "Exchange Server 2019 CU12 Oct 22 Security Update"           = "15.02.1118.015"
+    "Exchange Server 2016 CU23 Oct 22 Security Update"           = "15.01.2507.013"
+    "Exchange Server 2013 CU23 Oct 22 Security Update"           = "15.00.1497.042"
     "Exchange Server 2019 CU12 Aug 22 Security Update"           = "15.02.1118.012"
     "Exchange Server 2016 CU23 Aug 22 Security Update"           = "15.01.2507.012"
     "Exchange Server 2013 CU23 Aug 22 Security Update"           = "15.00.1497.040"
