@@ -1,6 +1,8 @@
 
 # Use Build number (long format) for LatestBuild
 
+# test
+
 $Script:eVersions = @(
     [pscustomobject]@{
         VersionName = '2019';
