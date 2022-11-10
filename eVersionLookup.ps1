@@ -4,20 +4,20 @@
 $Script:eVersions = @(
     [pscustomobject]@{
         VersionName = '2019';
-        LatestBuild = '15.02.1118.015';
-        Name        = 'Exchange Server 2019 CU12 October 11, 2022 Security Update';
+        LatestBuild = '15.02.1118.020';
+        Name        = 'Exchange Server 2019 CU12 November 8, 2022 Security Update';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019';
     }
     [pscustomobject]@{
         VersionName = '2016';
-        LatestBuild = '15.01.2507.013';
-        Name        = 'Exchange Server 2016 CU23 October 11, 2022 Security Update';
+        LatestBuild = '15.01.2507.016';
+        Name        = 'Exchange Server 2016 CU23 November 8, 2022 Security Update';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016';
     }
     [pscustomobject]@{
         VersionName = '2013';
-        LatestBuild = '15.00.1497.042';
-        Name        = 'Exchange Server 2013 CU23 October 11, 2022 Security Update';
+        LatestBuild = '15.00.1497.044';
+        Name        = 'Exchange Server 2013 CU23 November 8, 2022 Security Update';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013';
     }
     [pscustomobject]@{
@@ -29,6 +29,9 @@ $Script:eVersions = @(
 )
 
 $Script:onlineCuLookup = @{
+    "Exchange Server 2019 CU12 Nov 22 Security Update"           = "15.02.1118.020"
+    "Exchange Server 2016 CU23 Nov 22 Security Update"           = "15.01.2507.016"
+    "Exchange Server 2013 CU23 Nov 22 Security Update"           = "15.00.1497.044"
     "Exchange Server 2019 CU12 Oct 22 Security Update"           = "15.02.1118.015"
     "Exchange Server 2016 CU23 Oct 22 Security Update"           = "15.01.2507.013"
     "Exchange Server 2013 CU23 Oct 22 Security Update"           = "15.00.1497.042"
