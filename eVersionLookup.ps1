@@ -4,20 +4,20 @@
 $Script:eVersions = @(
     [pscustomobject]@{
         VersionName = '2019';
-        LatestBuild = '15.02.1118.021';
-        Name        = 'Microsoft Exchange Server 2019: January 10, 2023 Security Update';
+        LatestBuild = '15.02.1118.025';
+        Name        = 'Microsoft Exchange Server 2019: February 14, 2023 Security Update';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019';
     }
     [pscustomobject]@{
         VersionName = '2016';
-        LatestBuild = '15.01.2507.017';
-        Name        = 'Microsoft Exchange Server 2016: January 10, 2023 Security Update';
+        LatestBuild = '15.01.2507.021';
+        Name        = 'Microsoft Exchange Server 2016: February 14, 2023 Security Update';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2016';
     }
     [pscustomobject]@{
         VersionName = '2013';
-        LatestBuild = '15.00.1497.045';
-        Name        = 'Microsoft Exchange Server 2013: January 10, 2023 Security Update';
+        LatestBuild = '15.00.1497.047';
+        Name        = 'Microsoft Exchange Server 2013: February 14, 2023 Security Update';
         Url         = 'https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2013';
     }
     [pscustomobject]@{
@@ -29,6 +29,9 @@ $Script:eVersions = @(
 )
 
 $Script:onlineCuLookup = @{
+    "Exchange Server 2019 CU12 Feb 23 Security Update"           = "15.02.1118.025"
+    "Exchange Server 2016 CU23 Feb 23 Security Update"           = "15.01.2507.021"
+    "Exchange Server 2013 CU23 Feb 23 Security Update"           = "15.00.1497.047"
     "Exchange Server 2019 CU12 Jan 23 Security Update"           = "15.02.1118.021"
     "Exchange Server 2016 CU23 Jan 23 Security Update"           = "15.01.2507.017"
     "Exchange Server 2013 CU23 Jan 23 Security Update"           = "15.00.1497.045"
